@@ -1,5 +1,5 @@
 body {
-  padding-top: 5rem;
+  padding-top: 0.5rem;
 }
 .starter-template {
   padding: 3rem 1.5rem;
@@ -7,11 +7,50 @@ body {
 }
 
 .navbar {
-  background-color: rgb(117,100,68) !important;
+  background-color: black !important;
+  height: 35px !important;
 }
 
-#header_title {
-  color: rgb(117,100,68);
-  background-color: none;
+.navbar-toggle {
+     padding: 0 0;
+     margin-top: 7px;
+     margin-bottom: 0;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+.captions {
+  text-align: center;
+  font-size: 3em;
+  font-family: cursive;
+  font-weight: bolder;
+
+}
+
+#head_caption {
+  font-family: arial;
+  text-align: center;
+}
+
+#head {
+  font-size: 4em;
+  font-family: cursive;
+  text-align: center;
+}
+
+#carousel {
+  padding-top: 1rem;
+}
+
+#img_cap {
+  padding-top: 1rem;
+  font-size: 24px;
+  text-align: center;
+}
+
+#socials {
   text-align: center;
 }
