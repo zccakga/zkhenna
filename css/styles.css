@@ -61,7 +61,7 @@ body {
 .footnote{
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   background-color: black;
   color: white;
   font-family: cursive;
@@ -100,4 +100,10 @@ body {
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+#query_head {
+  font-family: arial;
+  margin-top: 2px;
+  text-align: center;
 }
