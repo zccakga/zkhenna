@@ -35,7 +35,7 @@ body {
 }
 
 #head_caption {
-  font-family: arial;
+  font-family: avenir;
   text-align: center;
 }
 
@@ -100,4 +100,13 @@ body {
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+.main-about-me {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: avenir;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 30px;
 }
