@@ -110,3 +110,10 @@ body {
   padding-right: 130px;
   padding-top: 30px;
 }
+
+#query_head {
+  font-family: arial;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 1.5em;
+}
