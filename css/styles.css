@@ -58,6 +58,14 @@ body {
 #socials {
   text-align: center;
 }
+
+
+.index-info {
+  font-family: avenir;
+  color: black;
+  text-align: center;
+  padding-top: 30px;
+}
 .footnote{
   text-align: center;
   margin-top: 20px;
