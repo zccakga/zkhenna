@@ -109,6 +109,7 @@ body {
   padding-left: 130px;
   padding-right: 130px;
   padding-top: 30px;
+
 }
 
 #query_head {
@@ -126,4 +127,9 @@ body {
   colour: grey;
   font-family: avenir;
   padding-bottom: 30px;
+}
+
+.mandala-img {
+  padding-top; 20px;
+  padding-bottom: 50px;
 }
