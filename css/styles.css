@@ -19,8 +19,6 @@ body {
   font-size: 0.8em;
 }
 
-
-
 .carousel-caption {
     top: 0;
     bottom: auto;
@@ -111,9 +109,21 @@ body {
   padding-top: 30px;
 }
 
-#query_head {
+#query_head, #prices_head {
   font-family: arial;
   padding-top: 30px;
   text-align: center;
   font-size: 1.5em;
+}
+
+.prices-par {
+  text-align: center;
+}
+
+.prices-nb {
+  font-style: italic;
+}
+
+.prices-enquiry {
+  margin-top: 50px;
 }
