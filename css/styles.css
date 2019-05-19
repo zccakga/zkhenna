@@ -13,10 +13,13 @@ body {
 .navbar-toggler {
   margin-left: 0%;
   margin-top: 0%;
+  font-size: 0.8em;
+  outline: 1px solid white;
 }
 
-.navbar-toggler {
-  font-size: 0.8em;
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: 1px solid white;
+  box-shadow: 0px 0px 5px 3px white;
 }
 
 .carousel-caption {
