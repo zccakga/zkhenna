@@ -22,6 +22,7 @@ body {
 .carousel-caption {
     top: 0;
     bottom: auto;
+    color: black;
 }
 
 .captions {
@@ -126,4 +127,15 @@ body {
 
 .prices-enquiry {
   margin-top: 50px;
+}
+
+.index-info {
+  text-align: center;
+  font-family: arial;
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+
+.index-txt {
+  font-size: 1.3em;
 }
