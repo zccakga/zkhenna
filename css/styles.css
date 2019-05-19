@@ -1,5 +1,10 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
   padding-top: 0.5rem;
+  margin-bottom: 100px;
 }
 .starter-template {
   padding: 3rem 1.5rem;
@@ -62,12 +67,14 @@ body {
 }
 .footnote{
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 0px;
   background-color: black;
   color: white;
   font-family: cursive;
-  padding-bottom: 15px;
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  height: 100px;
+  margin-top: 1rem;
 }
 
 /* Style all font awesome icons */
@@ -122,6 +129,7 @@ body {
 
 .prices-par {
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .prices-nb {
@@ -129,16 +137,20 @@ body {
 }
 
 .prices-enquiry {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .index-info {
   text-align: center;
   font-family: arial;
   margin-top: 5px;
-  margin-bottom: -10px;
+  padding-bottom: 1px;
 }
 
 .index-txt {
   font-size: 1.3em;
+}
+
+.form {
+  padding-bottom: 10px;
 }
