@@ -3,7 +3,7 @@ html {
   min-height: 100%;
 }
 body {
-  padding-top: 0.5rem;
+  padding-top: 0rem;
   margin-bottom: 100px;
 }
 .starter-template {
@@ -35,9 +35,8 @@ body {
 
 .captions {
   text-align: center;
-  font-size: 3em;
-  font-family: cursive;
-  font-weight: bolder;
+  font-size: 2.5em;
+  font-weight: 600;
 
 }
 
@@ -52,7 +51,7 @@ body {
 }
 
 #my-carousel {
-  padding-top: 1rem;
+  margin-top: 5rem;
 }
 
 #img_cap {
@@ -68,7 +67,7 @@ body {
   text-align: center;
   background-color: black;
   color: white;
-  font-family: cursive;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   position:absolute;
   bottom:0;
   width: 100%;
@@ -120,7 +119,7 @@ body {
 }
 
 #query_head, #prices_head {
-  padding-top: 30px;
+  padding-top: 80px;
   text-align: center;
   font-size: 1.5em;
 }
@@ -165,4 +164,8 @@ body {
 }
 .table-bordered td, .table-bordered th {
   border: 1px solid black;
+}
+
+.ind_cap {
+  font-size: 1.8em;
 }
