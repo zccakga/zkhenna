@@ -111,14 +111,11 @@ body {
 
 .main-about-me {
   text-align: center;
-  font-size: 1.5em;
-  font-family: avenir;
-  padding-left: 130px;
-  padding-right: 130px;
-  padding-top: 30px;
+  padding-top: 10px;
+  margin: auto;
 }
 
-#query_head, #prices_head {
+.page_head {
   padding-top: 80px;
   text-align: center;
   font-size: 1.5em;
@@ -134,7 +131,7 @@ body {
 }
 
 .prices-enquiry {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .index-info {
