@@ -166,3 +166,20 @@ body {
 .ind_cap {
   font-size: 1.8em;
 }
+
+.zahraa-about-me {
+  max-width: 300px;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+.mandala-zkhenna {
+  max-width: 300px;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
