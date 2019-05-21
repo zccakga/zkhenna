@@ -50,28 +50,43 @@
     <main role="main" class="container">
 
       <h2 class="page_head">Enter your details to submit a booking query</h2>
-      <form action="/action_page.php" class="form">
+      <form action="enquiries.html" id="my-form" class="form needs-validation" novalidate onsubmit="return validateForm()">
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="usr">Name:</label>
-            <input type="text" class="form-control" id="usr" placeholder="Enter name">
+            <input type="text" class="form-control" id="usr" placeholder="Enter name" required>
+            <div class="invalid-feedback">
+              Please enter your name
+            </div>
           </div>
           <div class="form-group col-md-6">
             <label for="usr">Surname:</label>
-            <input type="text" class="form-control" id="usr" placeholder="Enter surname">
+            <input type="text" class="form-control" id="usr" placeholder="Enter surname" required>
+            <div class="invalid-feedback">
+              Please enter your surname
+            </div>
           </div>
           <div class="form-group col-md-6">
             <label for="email">Email:</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+            <div class="invalid-feedback">
+              Please enter your email adress
+            </div>
           </div>
           <div class="form-group col-md-6">
             <label for="inputdefault">Mobile number:</label>
-            <input class="form-control" id="inputdefault" type="text" placeholder="Enter number">
+            <input type="number" class="form-control" id="inputdefault" type="text" placeholder="Enter number" required>
+            <div class="invalid-feedback">
+              Please enter your number
+            </div>
           </div>
         </div>
         <div class="form-group">
           <label for="comment">Booking details:</label>
-          <textarea class="form-control" rows="5" id="comment" placeholder="Enter booking details, including the desired service and the type/date of event"></textarea>
+          <textarea class="form-control" rows="5" id="comment" required placeholder="Enter booking details, including the desired service and the type/date of event"></textarea>
+          <div class="invalid-feedback">
+            Please enter your booking details
+          </div>
         </div>
         <button type="submit" class="btn btn-primary submit-btn">Submit</button>
       </form>
@@ -93,5 +108,6 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
     <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+    <script src="../js/java-script.js"></script>
   </body>
 </html>
