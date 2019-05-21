@@ -112,7 +112,9 @@ body {
 .main-about-me {
   text-align: center;
   padding-top: 10px;
+  padding-bottom: 10px;
   margin: auto;
+  display: inline-block;
 }
 
 .page_head {
@@ -121,9 +123,11 @@ body {
   font-size: 1.5em;
 }
 
-.prices-par {
+.prices-par,.about-me {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
+  margin: auto;
+  max-width: 800px;
 }
 
 .prices-nb {
@@ -168,18 +172,5 @@ body {
 }
 
 .zahraa-about-me {
-  max-width: 300px;
-  height: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 30px;
-}
-
-.mandala-zkhenna {
-  max-width: 300px;
-  height: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-bottom: 20px;
 }
